@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Old YouTube searchbar
 // @namespace    https://github.com/makl11
-// @version      1.1
+// @version      1.2
 // @description  Restores the YouTube seachbars old location
 // @author       makl11
 // @icon         https://s.ytimg.com/yts/img/favicon-vfl8qSV2F.ico
