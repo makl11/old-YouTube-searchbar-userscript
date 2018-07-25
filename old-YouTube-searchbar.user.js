@@ -12,7 +12,8 @@
 
 (function() {
     'use strict';
-    const ytSearch = document.querySelector('ytd-searchbox');
-    ytSearch.style.justifyContent = 'flex-start';
-    ytSearch.style.marginLeft = '11vw';
+    let custom_styles = document.createElement('style');
+    let styles = "ytd-searchbox { justify-content: flex-start !important; margin-left: 11vw !important }";
+    custom_styles.appendChild(document.createTextNode(styles));
+    document.head.appendChild(custom_styles);
 })();
